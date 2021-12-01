@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "SmartHome",
+    "slug": "Smart_home",
+    "platforms":["ios", "android"],
+    "version": "1.0.2",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.alexandrecampos.Smarthome",
+      "buildNumber": "1.0.0"
+    },
+    
+    "android": {
+      "package": "com.alexandrecampos.Smarthome",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  
+  }
+}
